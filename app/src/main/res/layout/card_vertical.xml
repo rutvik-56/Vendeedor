@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="15dp"
+    android:layout_height="250dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/imo"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:src="#000000"
+            android:layout_height="match_parent">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sr"
+            android:layout_width="wrap_content"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:paddingTop="2dp"
+            android:text="Sale"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            android:background="#bbD3D3D3"
+            app:fontFamily="@font/amiko"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:background="#bbD3D3D3"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="3dp"
+            android:orientation="vertical"
+            android:paddingTop="3dp"
+            android:layout_height="70dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/des1"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:ellipsize="end"
+                    android:textColor="#000000"
+                    android:maxLines="1"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/amiko"
+                    android:text="dgnr rtnrtntrdndtnd"
+                    >
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1.2"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/des2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/amiko"
+                    android:text="dgnr rtnrtntrdndtnd"
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/des4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="13sp"
+                    android:ellipsize="end"
+                    android:gravity="end"
+                    android:maxLines="1"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/amiko"
+                    android:text="3400 sq. ft"
+                    >
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1.4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/des3"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="11sp"
+                    android:ellipsize="end"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:textColor="#000000"
+                    app:fontFamily="@font/amiko"
+                    android:text="5 Days Ago"
+                    >
+                </TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "546731538363",
+    "firebase_url": "https://vendeedor-436d4.firebaseio.com",
+    "project_id": "vendeedor-436d4",
+    "storage_bucket": "vendeedor-436d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546731538363:android:c9939d43dc52913ca7369e",
+        "android_client_info": {
+          "package_name": "com.realestate.vendeedor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546731538363-af4clqmbmthbrdvejq2hl5t3g76uepml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.realestate.vendeedor",
+            "certificate_hash": "87610c0c8183a717108932321defe13da421fdbc"
+          }
+        },
+        {
+          "client_id": "546731538363-oop42cadvuj3dno50abr8q1g9mtqev9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFO5fP8TOPFzb37xPa4JQq4ReACmsHf1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546731538363-oop42cadvuj3dno50abr8q1g9mtqev9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

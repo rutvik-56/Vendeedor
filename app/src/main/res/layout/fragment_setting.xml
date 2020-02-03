@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".setting">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#ff5555"
+            android:gravity="center"
+            android:layout_height="80dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:text="Profile">
+
+            </TextView>
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:background="#ff5555"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        >
+
+    </TextView>
+
+        <TextView
+            android:id="@+id/ads"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            >
+        </TextView>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="2.5"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="280dp"
+            android:text="Logout"
+            android:background="@drawable/button"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:layout_height="50dp">
+
+        </Button>
+    </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
