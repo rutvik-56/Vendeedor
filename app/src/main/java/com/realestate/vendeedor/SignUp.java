@@ -88,7 +88,7 @@ public class SignUp extends AppCompatActivity implements LocationListener{
         signin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(SignUp.this,upload.class);
+                Intent i=new Intent(SignUp.this,login.class);
                 startActivity(i);
 finish();
             }

@@ -15,7 +15,8 @@
         android:background="@drawable/background"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
-        android:layout_alignParentLeft="true">
+        android:layout_alignParentLeft="true"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:layout_width="match_parent"
@@ -40,7 +41,6 @@
             android:layout_width="match_parent"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
-            android:layout_marginTop="20dp"
             android:orientation="vertical"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
@@ -49,7 +49,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="345dp"
-                android:layout_marginTop="25dp"
                 android:orientation="vertical"
                 >
                 <TextView
@@ -116,16 +115,15 @@
                 </TextView>
 
                 <ImageButton
+                    android:id="@+id/signin"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="end"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="32dp"
                     android:layout_marginEnd="25dp"
-                    android:id="@+id/signin"
                     android:src="@drawable/ic_arrow_forward_black_24dp"
                     android:background="@drawable/button_background"
                     android:layout_marginRight="25dp" />
-
 
             </LinearLayout>
 
@@ -139,20 +137,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginTop="25dp"
                     android:text="Don't have an Account"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textStyle="bold" />
 
                 <Button
+                    android:id="@+id/signup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginLeft="40dp"
                     android:layout_marginRight="40dp"
                     android:layout_marginTop="10dp"
-                    android:id="@+id/signup"
                     android:background="@drawable/button_background"
                     android:text="SIGN UP"
                     android:textColor="@android:color/white" />

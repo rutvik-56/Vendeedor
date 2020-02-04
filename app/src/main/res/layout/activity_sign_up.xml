@@ -42,7 +42,7 @@
             android:layout_width="match_parent"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:orientation="vertical"
             android:layout_height="match_parent"
             android:layout_marginBottom="20dp"
@@ -130,7 +130,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="end"
-                    android:layout_marginTop="45dp"
+                    android:layout_marginTop="32dp"
                     android:layout_marginEnd="25dp"
                     android:id="@+id/signup"
                     android:src="@drawable/ic_arrow_forward_black_24dp"
@@ -144,7 +144,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:layout_marginTop="50dp"
                 android:gravity="top">
                 <TextView
                     android:layout_width="wrap_content"

@@ -46,9 +46,6 @@ public class login extends AppCompatActivity {
             startActivity(i);
             finish();
         }
-        else {
-            setContentView(R.layout.activity_login);
-        }
         tt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
